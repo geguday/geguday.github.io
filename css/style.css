@@ -1,7 +1,8 @@
 body {
-
+  background-image: url("../assets/luke-chesser-B_oL3jEt5L4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
 .header {
     position: relative;
 }
@@ -21,4 +22,24 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 50%);
+}
+
+.subtitle {
+    position: relative;
+}
+
+.subtitle p {
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-wrap: break-word;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 150%);
 }
